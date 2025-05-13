@@ -1,0 +1,253 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","hi", "Hello","hello","hey", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! Need help with a loan?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Talk to you later"],
+      "responses": ["Goodbye! Let us know if you need anything else.", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": ["You're welcome!", "Glad I could help!"]
+    },
+    {
+      "tag": "loan_types",
+      "patterns": ["What types of loans do you offer?", "Tell me about your loans", "Loan types"],
+      "responses": [
+        "We offer Personal Loans, Home Loans, Education Loans, and Business Loans. Which one are you interested in?"
+      ]
+    },
+    {
+      "tag": "personal_loan",
+      "patterns": ["Tell me about personal loans", "I need a personal loan", "personal loan info"],
+      "responses": [
+        "Our personal loans offer flexible repayment terms, competitive interest rates, and fast approval. Would you like to check eligibility?"
+      ]
+    },
+    {
+      "tag": "home_loan",
+      "patterns": ["Home loan", "Tell me about home loans", "Can I get a housing loan?"],
+      "responses": [
+        "Our home loans are available for purchasing, constructing, or renovating your house. Let me help you with the requirements."
+      ]
+    },
+    {
+      "tag": "education_loan",
+      "patterns": ["Education loan", "student loan", "Can I get a loan for studies?"],
+      "responses": [
+        "Yes, our education loans cover tuition and other expenses for local or international studies."
+      ]
+    },
+    {
+      "tag": "interest_rates",
+      "patterns": ["What is the interest rate?", "Current loan rates", "interest rates for personal loan"],
+      "responses": [
+        "Interest rates vary depending on the loan type and applicant profile. Would you like to talk to a loan officer for personalized info?"
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": ["Am I eligible for a loan?", "Loan eligibility", "How do I know if I qualify?"],
+      "responses": [
+        "Eligibility depends on your income, employment status, and credit history. You can check eligibility online or visit a branch."
+      ]
+    },
+    {
+      "tag": "documents",
+      "patterns": ["What documents are needed?", "Loan documents", "Documents for loan application"],
+      "responses": [
+        "You'll generally need your NIC, salary slips, bank statements, and proof of address. The exact documents vary by loan type."
+      ]
+    },
+    {
+      "tag": "how_to_apply",
+      "patterns": ["How do I apply?", "Apply for a loan", "Loan application process"],
+      "responses": [
+        "You can apply online via our website or visit your nearest HNB branch. Would you like the online application link?"
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": ["Contact info", "How can I contact HNB?", "HNB phone number"],
+      "responses": [
+        "You can call our customer service at 011-246-0000 or email us at info@hnb.lk"
+      ]
+    },
+    {
+      "tag": "branch_locations",
+      "patterns": ["Where is the nearest branch?", "HNB branches", "Branch location"],
+      "responses": [
+        "Please visit https://www.hnb.lk/branches to find your nearest branch."
+      ]
+    },
+    {
+      "tag": "loan_calculator",
+      "patterns": [
+        "Can I calculate my loan?", 
+        "Loan calculator", 
+        "How much will I pay monthly?", 
+        "Estimate my loan"
+      ],
+      "responses": [
+        "You can use our loan calculator here: https://www.hnb.lk/loan-calculator to estimate your monthly payments."
+      ]
+    },
+    {
+      "tag": "credit_score",
+      "patterns": [
+        "Do you check credit score?", 
+        "Is credit score important?", 
+        "What credit score do I need?"
+      ],
+      "responses": [
+        "Yes, credit score is an important factor. A good score improves your chances of approval and getting better interest rates."
+      ]
+    },
+    {
+      "tag": "repayment_options",
+      "patterns": [
+        "Repayment methods", 
+        "How can I repay my loan?", 
+        "Repayment options", 
+        "Loan repayment"
+      ],
+      "responses": [
+        "You can repay your loan via direct debit, online banking, mobile app, or at any HNB branch."
+      ]
+    },
+    {
+      "tag": "missed_payment",
+      "patterns": [
+        "I missed a payment", 
+        "Late loan payment", 
+        "Missed EMI", 
+        "What happens if I miss a loan payment?"
+      ],
+      "responses": [
+        "Missing a payment may lead to penalties or affect your credit score. Please contact our loan support team at 011-246-0000 as soon as possible."
+      ]
+    },
+    {
+      "tag": "loan_renewal",
+      "patterns": [
+        "Can I renew my loan?", 
+        "Loan extension", 
+        "Renew existing loan", 
+        "Extend my loan term"
+      ],
+      "responses": [
+        "Loan renewals or term extensions are possible based on your repayment history. Visit your branch or call us to discuss your options."
+      ]
+    },
+    {
+      "tag": "collateral_required",
+      "patterns": [
+        "Do I need collateral?", 
+        "Is collateral needed for loan?", 
+        "Loan with or without collateral?"
+      ],
+      "responses": [
+        "Some loans require collateral while others are unsecured. Personal and education loans are usually unsecured. Let us know which loan type you're interested in."
+      ]
+    },
+    {
+      "tag": "mobile_app",
+      "patterns": [
+        "Do you have a mobile app?", 
+        "HNB app", 
+        "How can I download the app?", 
+        "Use HNB services on phone"
+      ],
+      "responses": [
+        "Yes! Download the HNB SOLO app from the App Store or Google Play to access banking services anytime, anywhere."
+      ]
+    },
+    {
+      "tag": "loan_topup",
+      "patterns": [
+        "Can I top-up my loan?", 
+        "Loan top-up", 
+        "Increase my loan amount"
+      ],
+      "responses": [
+        "Top-up options are available based on your repayment record. Visit a branch or speak with your loan officer to check your eligibility."
+      ]
+    },
+    {
+      "tag": "loan_insurance",
+      "patterns": [
+        "Is insurance required?", 
+        "Loan insurance", 
+        "Do I need insurance for the loan?"
+      ],
+      "responses": [
+        "Some loans include insurance for added security. It helps cover repayments in case of emergencies. Your loan officer can explain the details."
+      ]
+    },
+    {
+      "tag": "language_support",
+      "patterns": [
+        "Can I chat in Sinhala?", 
+        "Tamil support?", 
+        "Other languages?", 
+        "Do you support Sinhala or Tamil?"
+      ],
+      "responses": [
+        "Yes, you can talk to us in Sinhala, Tamil, or English. We are here to help in your preferred language."
+      ]
+    },
+    {
+      "tag": "loan_processing_time",
+      "patterns": [
+        "How long does it take?", 
+        "Loan processing time", 
+        "How many days for approval?", 
+        "When will I get the loan?"  
+      ],
+      "responses": [
+        "Loan approval usually takes 2-5 working days, depending on the loan type and document verification."
+      ]
+    },
+    {
+      "tag": "loan_purpose",
+      "patterns": [
+        "Can I take a loan for travel?", 
+        "Loan for wedding?", 
+        "Can I borrow for medical?", 
+        "Loan for any purpose?"
+      ],
+      "responses": [
+        "Yes, you can take personal loans for travel, weddings, medical expenses, or other needs. Just let us know the purpose when applying."
+      ]
+    },
+    {
+      "tag": "loan_status",
+      "patterns": ["Check loan status", "Is my loan approved?", "Loan application update"],
+      "responses": [
+        "You can check your loan status through your HNB online account or by contacting your loan officer."
+      ]
+    },
+
+    {
+      "tag": "symbols",
+      "patterns": ["!", "@", "/","&","*","(","+","=",">","<"],
+      "responses": [
+        "Please avoid using special characters in your queries. It helps us understand you better."
+      ]
+    },
+
+    {
+      "tag": "other",
+      "patterns": ["say", "aa", "zee","old"],
+      "responses": [
+        "Please avoid using special characters in your queries. It helps us understand you better."
+      ]
+    }
+
+  ]
+}
